@@ -80,7 +80,7 @@ for i in range(0,3):
     print(i)
 else:
     print("for bitti.")
-for i, eleman in enumarate(liste):
+for i, eleman in enumerate(liste):
     print(i+1,".eleman : ",eleman , sep="")
 def yazdir():
     print("yazıyorum")
@@ -88,7 +88,7 @@ def yazdir():
 yazdir()
 
 
-def topla(a,b)
+def topla(a,b):
     return a+b
 print(topla(3,5))
 
@@ -100,14 +100,14 @@ def topLA_ne_varsa_git(*a):
 
 print(topLA_ne_varsa_git(3,5,9,15.2,36))
 
-
+"""
 def(*toplanacak,fazladan=0):
     toplam=0
     for deger in toplanacak:
         toplam+=deger+fazladan
     return toplam
 
-print(topLA_ne_varsa_git(3,5,9,15.2,36,fazladan=2),file="a.txt")
+print(topLA_ne_varsa_git(3,5,9,15.2,36,fazladan=2),file="a.txt")"""
 
 
 def birim_islem(**birim):
@@ -123,7 +123,7 @@ lambda_fonksiyonu=lambda a:a+10
 print(lambda_fonksiyonu(5))
 
 
-"""BUNUN KULLANILACAĞI BİR SINAV SORUSU!!!!!!!!!!"""
+
 
 def benimfonk(n):
     return lambda a:a*n
